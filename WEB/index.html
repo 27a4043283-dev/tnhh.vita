@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Test HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Test HTML Page</h1>
+    <p>Đây là trang HTML dùng để test.</p>
+
+    <button onclick="showMessage()">Bấm vào đây</button>
+
+    <p id="result"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("result").innerText = "Bạn vừa bấm nút!";
+        }
+    </script>
+
+</body>
+</html>
